@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500&family=Rokkitt:wght@100;200;300;400;500&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+    background-color: #eee4e4;
+    font-family: 'Hind', sans-serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    letter-spacing: .05em;
+}
+
+a:focus,
+a:hover {
+    text-decoration: underline;
+}
+
+strong {
+    color: rgb(15, 49, 100);              /* rgb(15, 49, 100); */
+    font-weight: 300;
+    font-family: 'Rokkitt', serif;
+}
+
+.wrapper {
+    position: relative;
+    width: 760px;
+    height: 100%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    background-color: #fff;
+    overflow-y: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color:  #0f2557;  
+    color: white;
+}
+
+.initials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 150px;
+    text-align: center;
+}
+
+.initials p {
+    font-size: 4rem;
+    letter-spacing: .1em;
+}
+
+.initials span {
+    color: rgb(198, 243, 235);
+}
+
+.profile {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 550px;
+}
+
+.profile h3 {
+    color:rgb(198, 243, 235);
+    font-size: 2rem;
+    font-family: 'Rokkitt', serif;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: .1em;
+}
+
+hr {
+    color: #fff;
+}
+
+.profile p {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: .6em;
+}
+
+.left {
+    float: left;
+    width: 280px;
+}
+
+.contact {
+    height: 250px;
+    width: 300px;
+    padding-left: 47px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(226, 219, 219);
+    font-family: 'Rokkitt', serif;
+}
+
+.contact ul {
+    width: 100%;
+}
+
+.contact ul,
+.skills ul,
+.education ul {
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+.contact-details li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2px;
+}
+
+.bi {
+    width: 28px;
+    margin-right: 5px;
+    text-align: center;
+    padding-top: 4px;
+    color:rgb(198, 243, 235);
+    background-color:  #0f2557;  
+}
+
+.skills,
+.education {
+    padding-top: 10px;
+    padding-left: 50px;
+    margin-bottom: 35px;
+}
+
+.skills h3,
+.education h3,
+.about__title,
+.experience__title {
+    margin-bottom: 5px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 300;
+    letter-spacing: .3em;
+    color:  #0f2557;  
+}
+
+.experience__title2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 300;
+    letter-spacing: .3em;
+    color:  #0f2557;  
+}
+
+.right {
+    float: right;
+    padding-left: 20px;
+    width: 460px;
+}
+
+.right {
+    border-top: 13px solid rgb(198, 243, 235);
+}
+
+.about,
+.experience {
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 420px;
+}
+
+.about__content p {
+    line-height: 1.5;
+}
+
+.experience {
+    margin-top: 10px;
+}
+
+.experience__sub-title {
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.experience__sub-title h4,
+.experience__sub-title p {
+    font-weight: 300;
+    color: #0f2557;  
+}
+
+.experience__content ul {
+    margin-left: 25px;
+    line-height: 1.5;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(198, 243, 235);
+    clear: both;
+}
